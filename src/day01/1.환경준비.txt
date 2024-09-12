@@ -1,0 +1,68 @@
+[0] 강의준비 : 크롬(브라우저) 설치 , IDE( 자바코드작성하는 프로그램 ) https://www.jetbrains.com/ko-kr/idea/
+   - 구글 검색
+   1. 인텔리제이 
+   2. 홈페이지 접속  IntelliJ IDEA – Java 및 Kotlin을 위한 최고의 IDE - JetBrains
+   3. [다운로드] IntelliJ IDEA Community Edition
+   * 설치옵션은 선택이지만 모두 체크 해주세요
+
+[1] 프로젝트 생성 
+   1. [ new Project ] 클릭 
+   2. 사이드바에 각 언어들 목록 [ java ] 클릭 
+   3. 프로젝트 설정 
+      (1) Name : kor2024c_java
+         - 프로젝트 이름( 코드들을 모아두는 곳/최상위 폴더 )
+         - 임의(아무거나), 영문
+         * 이름 정하기 할때 띄어쓰기 사용하지 말기 -> _ , -
+      (2) Location : ~\Documents\KimHyunSu
+         - 프로젝트 폴더 설치 경로 
+      (3) create git repository ( 체크 하지 않기  )
+
+      (4) Build System : litellij 선택 
+      (5) JDK : 
+         1. 드랍다운 클릭 
+         2.  Doenload JDK 
+            Version : 17 ( 1.8 이상 이면 가능 )
+            Vendor : Amazon Corretto ( 자바툴 제공하는 회사명의 버전 임의 선택 )
+            Location : ( 기본값 )
+               [ select ] 
+      add sample code[x]
+
+      [ Create ] 
+
+[2] 프로젝트 삭제 
+   1. 프로젝트 닫기 : 상단 메뉴 [ file ]  -> [close project ]
+   2. 프로젝트 삭제 : 프로젝트가 위치한 폴더에서 프로젝트폴더 삭제
+
+[3] 프로젝트 폴더 구성
+    - kor2024c_java ( 프로젝트명 )
+      - .idea ( 인텔리제이 설정파일 ) 개발자가 작성하는 코드와 상관
+      - src ( 개발자가 작성하는 코드파일을 모아두는 곳 )
+[4] 프로젝트 폴더 생성 
+   1. src 폴더를 오른쪽 클릭 하기 
+   2. [ new ] -> [ package ]
+   3. 폴더 이름 : 영문시작하는 임의 , 띄어쓰기x , 한글x
+      - 강의내 day01 ~ day02 ~ day03  ~~~~~ day10
+   * 상위 폴더와 하위 폴더가 겹치는 경우 
+   src
+     day01 패키지
+        step1 패키지 
+        step2 패키지 
+     day02
+
+[5] 인텔리제이 몇가지 셋팅 ]
+   - 상단 메뉴 -> file -> setting
+      [ 테마 설정 ] 
+      1. [Appearance & Behavior] 
+      2. [Appearance]
+      3.  Theme(테마 선택 )
+
+      [ 확대/축소 설정 ]
+      1. [Editor] 
+      2. [ General ] 
+      3. Mouse Control  , ctrl + mouse wheel 체크 
+
+      [ 한글패치 ] 
+      1. [ Plugins ] 
+      2. [ Marketplace ]
+      3 . 'kor' 검색후 install 
+
