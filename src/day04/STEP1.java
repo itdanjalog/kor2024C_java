@@ -40,6 +40,7 @@ public class STEP1 {
         // byte <- short,char <- int <- long <- float <- double
         // ( 변환할타입 ) : 캐스팅
         // 6.
+
         intValue = 10;
         // byteValue = intValue;   // 오류발생 : int타입은 byte타입으로 변환이 불가능하다.
         byteValue = (byte)intValue;// 해결방안 : int타입변수 앞에 (원하는타입) 캐스팅 연산자를 이용한 강제타입 변환
@@ -59,6 +60,16 @@ public class STEP1 {
         // intValue = doubleValue;      // 오류발생!! double -> int 불가능
         intValue = (int)doubleValue;    // 해결!!
         System.out.println("intValue = " + intValue);
+
+
+        char ch1 = 'A';
+        int intValue6 = ch1;    // 자동형볁환
+        System.out.println("intValue6 = " + intValue6);
+
+        int ch2 = 67;
+        char charValue3 = (char)ch2; // 강제형변환
+        System.out.println("charValue3 = " + charValue3);
+
 
         // [3] 연산중에 묵시적 타입 변환
 

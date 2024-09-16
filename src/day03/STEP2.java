@@ -35,6 +35,12 @@ public class STEP2 { // class s
         String str1 = scan.next();  // - 만일 콘솔에서 '자바' 입력시 String str1="자바"
         System.out.println("str1 = " + str1); // soutv : 자동완성
 
+        // 2.
+//        scan.nextLine(); // 의미없는 입력메소드
+//        System.out.print(" .nextLine() (띄어쓰기)문자열 : ");
+//        String str2 = scan.nextLine();
+//        System.out.println("str2 = " + str2);
+
         // 2. .nextBoolean() : 콘솔 입력한 데이터를 논리 타입으로 반환 해주는 함수 ,
         // 주의할점 : true/false 만 입력 가능 그외 입력시 오류
         System.out.print("[2] .nextBoolean() 논리타입 : ");
