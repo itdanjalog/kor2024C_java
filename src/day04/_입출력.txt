@@ -1,0 +1,22 @@
+리터럴값 : 키보드로부터 직접 입력한 자료
+[1.출력]
+    1. 출력 함수/기능 # import 없이 사용 가능하다. #
+        1. System.out.print( 리터럴값 또는 변수명 );     # 출력만
+        2. System.out.println( 리터럴값 또는 변수명  );   # 출력후 줄바꿈 처리
+        3. System.out.printf( "형식문자" , 리터럴값 또는 변수명 );    # 지정한 형식문자의 출력
+    2. 형식문자
+    3. 이스케이프/제어 문자 # \
+        \n : 줄바꿈 기능
+        \t : 들여쓰기 기능
+        \\ : \출력
+        \" : "출력
+
+[2.입력]
+    1. 입력 객체(변수) #import java.util.Scanner; # 입력 관련 클래스 호출
+        Scanner scan = new Scanner( System.in );    # main 함수안에 1번 만 선언
+    2. 입력객체 기반으로 입력 함수/기능                   # 타입 변수명 = scan.next타입();
+        1. 문자열 : scan.next();                       # console 에서 엔터(enter) 기준으로 입력이 종료
+        2. 정수 : scan.nextInt();
+        3. 실수 : scan.nextDouble();
+        4. 불리언 : scan.nextBoolean();
+        - 그외 : scan.nextByte() , scan.nextShort() , scan.nextLong() , scan.nextFloat()
