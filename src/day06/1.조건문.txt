@@ -1,0 +1,6 @@
+[정기수업]
+https://github.com/itdanjalog/tj_2024A_backend/blob/master/src/day03/Step4.java
+[단과수업]
+https://github.com/itdanjalog/kor2024B_java/tree/master/src/day06
+
+
