@@ -1,4 +1,4 @@
-package day06;
+package day06_1007월;
 
 import java.util.Scanner;
 
