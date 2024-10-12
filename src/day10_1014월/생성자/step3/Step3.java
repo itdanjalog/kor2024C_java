@@ -1,4 +1,4 @@
-package day10_1014월.step3;
+package day10_1014월.생성자.step3;
 
 /* 실습2 : 생성자를 이용한 Student 객체 생성하시오.
 [조건1] step3 패키지의 Student 라는 클래스를 선언합니다.

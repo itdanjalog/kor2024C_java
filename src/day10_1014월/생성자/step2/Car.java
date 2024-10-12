@@ -1,4 +1,4 @@
-package day10_1014월.day11.step2;
+package day10_1014월.생성자.step2;
 
 /*
 - 접근제한자 :

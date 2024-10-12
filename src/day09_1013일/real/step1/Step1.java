@@ -1,4 +1,4 @@
-package day09_1013일.STEP1;
+package day09_1013일.real.step1;
 
 public class Step1 {
 

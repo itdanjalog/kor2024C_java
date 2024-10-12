@@ -1,4 +1,4 @@
-package day09_1013일.STEP2;
+package day09_1013일.real.step3;
 /*
     자바의 클래스란?
         1. 객체의 속성 과 행위를 정의 하는 곳

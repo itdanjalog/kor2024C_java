@@ -1,4 +1,4 @@
-package day10_1014월.step3;
+package day10_1014월.생성자.step3;
 
 public class Student { // class s
     // 클래스 구성멤버

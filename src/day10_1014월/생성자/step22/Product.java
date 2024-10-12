@@ -1,4 +1,4 @@
-package day10_1014월.step2;
+package day10_1014월.생성자.step22;
 
 // 객체의 설계도
 public class Product {

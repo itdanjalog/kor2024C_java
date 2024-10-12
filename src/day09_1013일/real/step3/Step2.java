@@ -1,4 +1,4 @@
-package day09_1013일.STEP2;
+package day09_1013일.real.step3;
 
 public class Step2 { // class s
 

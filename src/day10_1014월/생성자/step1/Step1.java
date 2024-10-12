@@ -1,4 +1,4 @@
-package day10_1014월.day11.step1;
+package day10_1014월.생성자.step1;
 
 //  실행 클래스
 public class Step1 {
