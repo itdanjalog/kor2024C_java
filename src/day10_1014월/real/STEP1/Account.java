@@ -1,4 +1,4 @@
-package day09_1013일.real.step3;
+package day10_1014월.real.STEP1;
 
 // 계좌[통장] 설계
 public class Account {

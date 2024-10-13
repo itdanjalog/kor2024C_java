@@ -1,4 +1,4 @@
-package day10_1014월.생성자.step22;
+package day10_1014월.real.STEP3;
 
 // 용도1 : 객체의 설계도 클래스
 public class User { // class s

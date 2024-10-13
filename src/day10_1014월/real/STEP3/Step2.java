@@ -1,4 +1,4 @@
-package day10_1014월.생성자.step22;
+package day10_1014월.real.STEP3;
 
 // 용도2 : main 함수를 클래스
 public class Step2 { // class s
